@@ -11,7 +11,7 @@ public class MinutesToYearsAndDaysCalculator {
         }
         long MinToYears = minutes / (60*24*365);
         long MinToDays = (minutes % (60*24*365))/(60*24);
-        System.out.println("The" + minutes + " min = " + MinToYears + " y and " + MinToDays + " d");
+        System.out.println(minutes + " min = " + MinToYears + " y and " + MinToDays + " d");
     }
 }
 
