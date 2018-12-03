@@ -1,4 +1,3 @@
-package com.farooq;
 
 public class Main {
 
