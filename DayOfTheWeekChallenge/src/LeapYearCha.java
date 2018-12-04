@@ -1,7 +1,7 @@
 public class LeapYearCha {
     public static void main(String[] args) {
 
-        getDaysInMonth(2, 2021);
+        getDaysInMonth(2, -2021);
 
     }
 
