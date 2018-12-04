@@ -16,8 +16,8 @@ public class LeapYearCha {
 
 
     private static void getDaysInMonth(int month, int year) {
-        if ((month < 1 || month > 12) || (year < 1 ||  year > 9999)){
-                System.out.println("-1");
+        if ((month < 1 || month > 12) || (year < 1 || year > 9999)) {
+            System.out.println("-1");
         } else {
             switch (month) {
                 case 1:
@@ -64,6 +64,5 @@ public class LeapYearCha {
             }
 
         }
-
     }
 }
