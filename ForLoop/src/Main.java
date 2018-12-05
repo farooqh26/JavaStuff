@@ -41,9 +41,7 @@ public class Main {
 
     public static double calculateInterest(double amount, double interestRate){
         return(amount*(interestRate/100));
-    }                if(counter == 5){
-                    System.out.println("Exit");
-                    break;
+    }
 //-----------------------------------------------------------------------------------//
     public static boolean isPrime(int n) {
         if (n == 1) {
