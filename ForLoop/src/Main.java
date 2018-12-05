@@ -11,12 +11,16 @@ public class Main {
         }
         System.out.println("-----------------------------------------------------------------------");
 
-        int count =3;
-        for(int j=0;j<=100;j++){
+        int count =0;
+        for(int j=10;j<=50;j++){
             if(isPrime(j)) {
+                count++;
                 System.out.println("Prime number is : " + j);
+                if(count ==3){
+                    System.out.println("Exiting the loop");
+                    break;
+                }
             }
-            count = count -1;
         }
 
     }
@@ -32,7 +36,7 @@ public class Main {
             return false;
         }
 
-        for (int i=2; i <= n/2; i++) {
+        for (int i=2; i <= (long) Math.sqrt(2); i++) {
             if (n % i == 0) {
                 return false;
             }
