@@ -25,8 +25,6 @@ public class Main {
 
     }
 
-
-
     public static double calculateInterest(double amount, double interestRate){
         return(amount*(interestRate/100));
     }
@@ -36,7 +34,7 @@ public class Main {
             return false;
         }
 
-        for (int i=2; i <= (long) Math.sqrt(2); i++) {
+        for (int i=2; i <= (long) Math.sqrt(n/2); i++) {
             if (n % i == 0) {
                 return false;
             }
