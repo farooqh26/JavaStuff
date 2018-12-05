@@ -23,11 +23,27 @@ public class Main {
             }
         }
 
+        int counter =0;
+        int sum =0;
+        for(int i=0;i<=100;i++){
+            if((i % 3 == 0) && (i % 5 ==0)){
+                counter++;
+                sum+=i;
+                System.out.println("The number is " + i);
+                }
+            if(counter == 5){
+                System.out.println("Exit");
+                break;
+            }
+        }
+        System.out.println("Sum = " + sum);
     }
 
     public static double calculateInterest(double amount, double interestRate){
         return(amount*(interestRate/100));
-    }
+    }                if(counter == 5){
+                    System.out.println("Exit");
+                    break;
 //-----------------------------------------------------------------------------------//
     public static boolean isPrime(int n) {
         if (n == 1) {
