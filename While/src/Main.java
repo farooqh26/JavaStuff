@@ -32,6 +32,14 @@ public class Main {
         }
         while(counter!=6);
 
+        System.out.println(isEvenNumber(100));
+    }
 
+    public static boolean isEvenNumber(int num){
+        if(num % 2 == 0){
+            return true;
+        }
+        return false;
     }
 }
+
